@@ -1,0 +1,40 @@
+
+header {
+    border-bottom: solid 2px rgb(222, 28, 28);
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(230, 11, 11)
+}
+
+section {
+    background: rgb(42, 122, 228);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    
+    
+}
+
+
+
+img {
+    height: 100px;
+  }
+  
+.categoria h2 {
+    color: rgb(255, 8, 0);
+}
+
+  .categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+}
